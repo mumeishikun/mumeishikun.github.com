@@ -1,0 +1,18 @@
+# Site settings
+title: "Xさんのブログ"
+description: "ブログきり残るほど貧乏な人のブログです."
+baseurl: ""
+url: "http://xiaopengyuan.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Links
+#links:
+#  - title: "git"
+#    url: http://github.com/xiaopengyuan
+

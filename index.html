@@ -1,0 +1,39 @@
+---
+layout: default
+title: Home
+---
+
+<div style="margin: 0px -40px 0px -40px;" class="home">
+
+  <ul class="posts">
+    {% for post in paginator.posts %}
+    <li>
+      <h1 style="text-align:center;" >{{ post.title }}</h1>
+      <span style="display:block ;text-align:right;" >{{ post.date | date: "%b %-d, %Y" }}</span>
+      <p>{{ post.excerpt }}</p>
+      <div class="continue">
+        <a href="{{ post.url | prepend: site.baseurl }}">&bull;&bull;&bull;</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if page == 2 %}
+        <a class="page-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">前のページ</a>
+      {% else %}
+        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">前のページ</a>
+      {% endif %}
+    {% else %}
+      <span class="page-link">前のページ</span>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">次のページ</a>
+    {% else %}
+      <span class="page-link">次のページ</span>
+    {% endif %}
+  </div>
+  
+</div>

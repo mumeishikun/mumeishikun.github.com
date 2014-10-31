@@ -1,0 +1,11 @@
+[33mConfiguration file: none[0m
+            Source: /Users/xiaopengyuan/xiaopengyuan.github.com/_posts
+       Destination: /Users/xiaopengyuan/xiaopengyuan.github.com/_posts/_site
+      Generating... 
+[33m     Build Warning: Layout 'post' requested in 2014-09-19-kazaritoyougo.markdown does not exist.[0m
+[33m     Build Warning: Layout 'post' requested in 2014-09-20-kazaritoyougo.markdown does not exist.[0m
+                    done.
+ Auto-regeneration: enabled for '/Users/xiaopengyuan/xiaopengyuan.github.com/_posts'
+[33mConfiguration file: none[0m
+    Server address: http://0.0.0.0:4000/
+  Server running... press ctrl-c to stop.

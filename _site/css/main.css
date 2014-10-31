@@ -1,0 +1,150 @@
+body {
+  font-family: "HanziPenSC-W5","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height:150%;
+  margin: 80px ;
+  background: url("../images/bg.png")
+}
+
+.container {
+  background: #ffe;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 100px auto 0;
+  max-width: 600px;
+  min-height: 300px;
+  padding: 200px;
+  position: relative;
+  width: 80%;
+}
+
+/*
+.container:before, .container:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.container:before {
+  background: #ffe;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+
+.container:after {
+  background: #ffe;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
+*/
+/* links */
+a:link, a:visited, a:active, a:hover {
+  color: #C00;
+  text-decoration: none;
+}
+
+/* menu */
+.page-link {
+  font-weight: bold;
+}
+
+a.page-link:hover {
+  border-bottom: 4px solid #C00;
+}
+
+.navlist {
+  padding: 0px 0px;
+}
+
+.navlist > li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+/* headings */
+/*
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h3 {
+  font-weight: bold;
+}
+*/
+
+h1,h2,h3,h4,h5,h6{margin:18px 0 9px;font-family:"HanziPenSC-W5","Hiragino Sans GB", "Microsoft YaHei", sans-serif;font-weight:normal;color:inherit;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;color:#999999;}
+h1{font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h2{font-size:24px;line-height:36px;}h2 small{font-size:18px;}
+h3{font-size:18px;line-height:36px;}h3 small{font-size:14px;}
+h4,h5,h6{line-height:18px;}
+h4{font-size:14px;}h4 small{font-size:12px;}
+h5{font-size:12px;}
+h6{font-size:11px;color:#999999;text-transform:uppercase;}
+
+.header {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.header > h1 {
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-shadow: 1px 0px 1px #444;
+}
+
+/* posts */
+.posts {
+  padding-left: 0px;
+}
+
+.posts > li {
+  list-style-type: none;
+  margin: 80px 0px;
+  font-size:18px;line-height:36px;
+}
+
+
+/* code blocks */
+.highlight, blockquote {
+  margin: 40px 0px;
+  padding: 0px 20px;
+  border-left-style: solid;
+}
+
+/* footer */
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* pagination */
+.pagination {
+  text-align: center;
+}
+
+.pagination > a, .pagination > span {
+  margin: 40px 10px;
+}
+
+/* continue reading */
+.continue {
+  text-align: center;
+  margin-top: 40px;
+}
