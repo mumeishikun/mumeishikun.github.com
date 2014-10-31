@@ -1,6 +1,6 @@
-typewriter
+Xさんのブログ
 ==========
 
-A simple and beautiful theme for Jekyll.
+ブログきり残るほど貧乏な人のブログです.
 
-![Screenshot](https://raw.githubusercontent.com/alixedi/typewriter/master/images/screenshot.png)
+/*![Screenshot](https://raw.githubusercontent.com/alixedi/typewriter/master/images/screenshot.png)*/
